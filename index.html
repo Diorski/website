@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahmoud Yousif</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<button id="backToTop" onclick="scrollToTop()" style="display: none; position: fixed; bottom: 20px; right: 20px; padding: 10px 20px; font-size: 16px; cursor: pointer;">Back to Top</button>
+
+<body>
+    <div class="timeline">
+    <div class="container left">
+        <div class="content">
+  
+    </div>
+    <div class="container right">
+        <div class="content">
+
+    </div>
+    <!-- More events -->
+</div>
+
+    <header>
+        <h1>Mahmoud Yousif</h1>
+        <p>A Passionate Computer Scientist and Financial Innovator</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>As a visionary Computer Science student with a minor in Financial Mathematics at Wilfrid Laurier University, I am dedicated to revolutionizing financial markets through cutting-edge technologies. My academic and practical experiences have uniquely positioned me to leverage computational innovations to reshape economic trends and optimize decision-making processes in finance.</p>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>From developing comprehensive web solutions at Gerais Cargo to enhancing document management processes as a freelance developer, my career is guided by a drive to apply technical expertise practically and innovatively.
+
+        </p>
+    </section>
+    <section id="experience">
+        <h2>Professional Experience</h2>
+        <p>My professional trajectory is characterized by a relentless pursuit of innovation and practical application of my technical skills. At Gerais Cargo, I spearheaded the development of advanced web solutions that drastically enhanced our digital footprint and operational efficiency. As a freelance developer, I have transformed document management systems with custom-designed bots that streamline complex processes and increase productivit</p>
+    </section>
+        <section id="timeline">
+            <h2>My Journey</h2>
+            <div class="timeline-container">
+                <div class="timeline-block">
+                    <h3>2022 - Started at Wilfrid Laurier University</h3>
+                    <p>Enrolled in a challenging Computer Science program with a focus on Financial Mathematics, laying the groundwork for a career at the intersection of technology and finance.</p>
+                
+                </div>
+                <div class="timeline-block">
+                    <h3>Web Developer at Gerais Cargo Inc.</h3>
+                    <p> Engineered and launched a state-of-the-art website featuring sophisticated animations and interactivity, significantly boosting user engagement and corporate visibility.</p>
+                </div>
+                <div class="timeline-block">
+                    <h3>2022 - Champion, Regional Coding Marathon</h3>
+                    <p>Led a dynamic team to victory by developing a cutting-edge software solution that addressed a pressing community problem, demonstrating outstanding leadership and programming prowess in Python and Java.</p>
+                </div>
+                
+                <div class="timeline-block">
+                    <h3>2023 - Stock Market Analysis Tool Innovation</h3>
+                    <p>Architected a robust tool that integrates real-time financial APIs, employing advanced data analytics to deliver actionable insights into stock market trends and investment opportunities.</p>
+                </div>
+                
+                <div class="timeline-block">
+                    <h3>2023 - Discord Bot Developer</h3>
+                    <p>Conceived and deployed a customizable Discord bot that revolutionizes PDF management, showcasing my ability to automate and optimize document handling processes.</p>
+                
+                </div>
+                <div class="timeline-block">
+                    <h3>2023 - Co-Developer of an Award-Winning Campus Sustainability App</h3>
+                    <p>Co-created a pioneering app that enhances campus sustainability efforts, blending innovative design with functional excellence to improve user experience and environmental impact.</p>
+                </div>
+                <div class="timeline-block">
+                    <h3>2024 - Amazon Robotics Hackathon</h3>
+                    <p>Utilized Python and Java to contribute to the design and implementation of a project that aimed at solving real-world logistics problems through robotics.</p>
+                </div>
+    
+                
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-details">
+            <p>Email: <a href="mailto:yous8938@mylaurier.ca">yous8938@mylaurier.ca</a></p>
+            <p>Phone: <a href="tel:+14379945584">437-994-5584</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/mahmoud-yousif-402170182/" target="_blank">View my LinkedIn</a></p>
+        </div>
+        <section id="contact" class="contact-section">
+            <h2>Contact Me</h2>
+            <p>If you’re interested in collaborating or have any questions, feel free to reach out!</p>
+            <form action="submit-form-handler" method="POST">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+                <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    <footer>
+        <p>© 2024 Mahmoud Yousif. All rights reserved.</p>
+    </footer>
+    <script>
+        // Function to scroll to top
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+        
+        // Function to toggle the visibility of the back to top button
+        window.onscroll = function() {
+            var backToTopBtn = document.getElementById('backToTop');
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                backToTopBtn.style.display = "block";
+            } else {
+                backToTopBtn.style.display = "none";
+            }
+        };
+
+        
+        </script>
+        
